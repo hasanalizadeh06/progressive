@@ -1,0 +1,45 @@
+.navbar{
+    background-color: #F5F9FD;
+    display: flex;
+    height: 6rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    gap: 20%;
+    justify-content: space-around;
+
+}
+
+.navbar .logo img{
+    height: 100%;
+}
+
+.navbar .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .links ul{
+    gap: 3rem;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.navbar .links ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .register a{
+    background-color: black;
+    color: white;
+    padding: 0.45rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+}
