@@ -1,0 +1,98 @@
+.footer {
+    background-color: #0077be; /* Blue background matching the image */
+    color: white;
+    padding: 0px 100px;
+    min-height: 50vh; /* Set minimum height to 50% of viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer .upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255);
+    padding-bottom: 40px;
+}
+
+.footer .upper .left img {
+    max-height: 100px;
+}
+
+.footer .upper .right ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.footer .upper .right ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .upper .right ul li a:hover {
+    color: rgba(255,255,255,0.7);
+}
+
+.footer .lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .lower .left {
+    display: flex;
+    gap: 50px;
+}
+
+.footer .lower .left .header {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.footer .lower .left .content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer .lower .left .content ul li {
+    margin-bottom: 10px;
+}
+
+.footer .lower .left .content ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .lower .left .content ul li a:hover {
+    color: rgba(255,255,255,0.7);
+}
+
+.footer .lower .right ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.footer .lower .right ul li {
+    background-color: rgba(255,255,255,.7);
+    color: #0077be;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer .lower .right ul li:hover {
+    background-color: rgba(255,255,255);
+}
