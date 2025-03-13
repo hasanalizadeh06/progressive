@@ -1,18 +1,17 @@
 import React from 'react'
-import "./About.css"
+import './Register.css'
 import Rotation from '../../components/rotation/Rotation'
 import { IoArrowForward } from 'react-icons/io5'
 
-
-function About() {
+function Register() {
   return (
     <div>
       <Rotation>
-        home <IoArrowForward /> about us
+        home <IoArrowForward /> register
       </Rotation>
-      About
+      Register
     </div>
   )
 }
 
-export default About
+export default Register

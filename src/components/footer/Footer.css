@@ -1,8 +1,9 @@
 .footer {
-    background-color: #0077be; /* Blue background matching the image */
+    background: rgb(1,113,189);
+    background: linear-gradient(45deg, rgba(1,113,189,1) 0%, rgba(1,62,104,1) 80%);
     color: white;
     padding: 0px 100px;
-    min-height: 50vh; /* Set minimum height to 50% of viewport height */
+    min-height: 60vh; /* Set minimum height to 50% of viewport height */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,14 +51,16 @@
 }
 
 .footer .lower .left .header {
-    font-weight: bold;
     margin-bottom: 15px;
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 
 .footer .lower .left .content ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .footer .lower .left .content ul li {
@@ -66,6 +69,8 @@
 
 .footer .lower .left .content ul li a {
     color: white;
+    display: flex;
+    gap: 5px;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -95,4 +100,9 @@
 
 .footer .lower .right ul li:hover {
     background-color: rgba(255,255,255);
+}
+
+.footer .bottom{
+    color: #ffffffaa;
+    font-size: 0.8em;
 }

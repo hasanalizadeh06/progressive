@@ -1,18 +1,17 @@
 import React from 'react'
-import "./About.css"
+import "./TermConditions.css"
 import Rotation from '../../components/rotation/Rotation'
 import { IoArrowForward } from 'react-icons/io5'
 
-
-function About() {
+function TermConditions() {
   return (
     <div>
       <Rotation>
-        home <IoArrowForward /> about us
+        home <IoArrowForward /> Term & Conditions
       </Rotation>
-      About
+      TermConditions
     </div>
   )
 }
 
-export default About
+export default TermConditions

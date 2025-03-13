@@ -1,18 +1,17 @@
 import React from 'react'
-import "./About.css"
+import "./HelpCenter.css"
 import Rotation from '../../components/rotation/Rotation'
 import { IoArrowForward } from 'react-icons/io5'
 
-
-function About() {
+function HelpCenter() {
   return (
     <div>
       <Rotation>
-        home <IoArrowForward /> about us
+        home <IoArrowForward /> help center
       </Rotation>
-      About
+      HelpCenter
     </div>
   )
 }
 
-export default About
+export default HelpCenter

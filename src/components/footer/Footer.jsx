@@ -1,7 +1,12 @@
+// filepath: c:\Users\PC\Desktop\Code\progressive\src\components\footer\Footer.jsx
 import React from 'react'
 import "./Footer.css"
 import logo from "../../assets/navbar/logo.png"
 import { NavLink } from 'react-router-dom'
+import { FaFacebookF, FaInstagram, FaWhatsapp, FaTelegramPlane } from 'react-icons/fa'
+import { BsTelephone } from 'react-icons/bs'
+import { HiOutlineLocationMarker } from 'react-icons/hi'
+import { IoMailOutline } from 'react-icons/io5'
 
 function Footer() {
   return (
@@ -58,6 +63,11 @@ function Footer() {
                                     Privacy Policy
                                 </NavLink>
                             </li>
+                            <li>
+                                <NavLink to="terms-conditions">
+                                    Terms & Conditions
+                                </NavLink>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -68,14 +78,19 @@ function Footer() {
                     <div className="content">
                         <ul>
                             <li>
-                                <NavLink to="help-center">
-                                    051 555 55 55
-                                </NavLink>
+                                <a>
+                                    <BsTelephone /> 051 555 55 55
+                                </a>
                             </li>
                             <li>
-                                <NavLink to="privacy-policy">
-                                    Babek Plaza
-                                </NavLink>
+                                <a>
+                                    <HiOutlineLocationMarker /> Babek Plaza
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <IoMailOutline /> loremimpus@gmail.com
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -84,19 +99,22 @@ function Footer() {
             <div className="right">
                 <ul>
                     <li>
-                        F
+                        <FaFacebookF />
                     </li>
                     <li>
-                        I
+                        <FaInstagram />
                     </li>
                     <li>
-                        W
+                        <FaWhatsapp />
                     </li>
                     <li>
-                        T
+                        <FaTelegramPlane />
                     </li>
                 </ul>
             </div>
+        </div>
+        <div className="bottom">
+            <p>© Copyright 2025 | All rights reserved by CLARADIX</p>
         </div>
     </div>
   )

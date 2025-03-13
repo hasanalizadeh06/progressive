@@ -1,18 +1,17 @@
 import React from 'react'
-import "./About.css"
+import "./PrivacyPolicy.css"
 import Rotation from '../../components/rotation/Rotation'
 import { IoArrowForward } from 'react-icons/io5'
 
-
-function About() {
+function PrivacyPolicy() {
   return (
     <div>
       <Rotation>
-        home <IoArrowForward /> about us
+        home <IoArrowForward /> Privacy Policy
       </Rotation>
-      About
+      PrivacyPolicy
     </div>
   )
 }
 
-export default About
+export default PrivacyPolicy
