@@ -1,0 +1,50 @@
+.who-we-are {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.who-we-are .rightSide,
+.who-we-are .leftSide {
+    flex: 1;
+    position: relative;
+}
+
+.who-we-are .leftSide .img img{
+    width: 100%;
+    border-radius: 30px;
+    height: 80vh;
+}
+
+.who-we-are .leftSide .textBlock{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px 65px;
+    font-size: 2em;
+    background-color: white;
+    border-radius: 0 0 30px;
+}
+
+.who-we-are .leftSide .img::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: -35px -35px 0 0 white;
+}
+
+.who-we-are .leftSide .img::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 102px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: -35px -35px 0 0 white;
+}
