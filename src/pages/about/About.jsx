@@ -6,7 +6,7 @@ import img1 from "../../assets/about/1.png"
 
 function About() {
   return (
-    <div>
+    <div className='about-page'>
       <Rotation>
         home <IoArrowForward /> about us
       </Rotation>
@@ -20,11 +20,13 @@ function About() {
           </div>
         </div>
         <div className="rightSide">
-          <div className="header">
-            Our Journey of Personal Growth and Development
-          </div>
-          <div className="content">
-            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 
+          <div className=" ">
+            <div className="header">
+              Our Journey of Personal Growth and Development
+            </div>
+            <div className="content">
+              Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 
+            </div>
           </div>
           <div className="statistics">
             <div className="stat">
@@ -34,6 +36,66 @@ function About() {
             <div className="stat">
               <div className="number">10+</div>
               <div className="text">YEAR EXPERIENCE</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="ppc">
+        <div className="header">
+          PROGRESSIVE PSYCHOLOGY CENTER
+        </div>
+        <div className="content">
+          <div className="box1 box">
+            <div className="textbox">
+              <div className="header">
+                ONE-ON-ONE COACHING
+              </div>
+              <div className="content">
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+              </div>
+            </div>
+          </div>
+          <div className="box2 box">
+            <div className="textbox">
+              <div className="header">
+                ONE-ON-ONE COACHING
+              </div>
+              <div className="content">
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+              </div>
+            </div>
+          </div>
+          <div className="box3 box">
+            <div className="textbox">
+              <div className="header">
+                ONE-ON-ONE COACHING
+              </div>
+              <div className="content">
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bbfthc">
+        <div className="header">
+          Building A <br/>Brighter Future <br/>Through Holistic <br/>Coaching
+        </div>
+        <div className="content">
+          <div className="box1">
+            <div className="header">
+              OUR VISION
+            </div>
+            <div className="content">
+              Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+            </div>
+          </div>
+          <div className="box2">
+            <div className="header">
+              OUR MISSION
+            </div>
+            <div className="content">
+              Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
             </div>
           </div>
         </div>

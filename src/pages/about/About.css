@@ -1,8 +1,16 @@
+.about-page{
+    padding: 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .who-we-are {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+
 }
 
 .who-we-are .rightSide,
@@ -14,14 +22,16 @@
 .who-we-are .leftSide .img img{
     width: 100%;
     border-radius: 30px;
-    height: 80vh;
+    height: 90vh;
 }
 
 .who-we-are .leftSide .textBlock{
     position: absolute;
     left: 0;
     top: 0;
-    padding: 30px 65px;
+    width: 50%;
+    padding: 30px 0;
+    text-align: center;
     font-size: 2em;
     background-color: white;
     border-radius: 0 0 30px;
@@ -47,4 +57,188 @@
     height: 70px;
     border-radius: 50%;
     box-shadow: -35px -35px 0 0 white;
+}
+
+.who-we-are .rightSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
+.who-we-are .rightSide .header{
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.who-we-are .rightSide .content{
+    font-size: 0.9em;
+}
+
+.who-we-are .rightSide .statistics{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.who-we-are .rightSide .statistics .stat .text{
+    color: rgb(132, 131, 131);
+}
+
+.who-we-are .rightSide .statistics .stat .number{
+    font-size: 2.5em;
+    font-weight: 600;
+    background: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to top, rgba(1,113,189,1) 40%, #fff 100%);
+}
+
+.ppc{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.ppc .header{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.ppc .content{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between   
+}
+
+.ppc .content .box{
+    background-image: url("../../assets/about/2.png");
+    width: 30vw;
+    height: 35vw;
+    border-radius: 40px;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.ppc .content .box .textbox{
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 25px;
+    text-align: center;
+    opacity: 0;
+    padding: 20px;
+    transform: translateY(50px);
+    transition: all .6s ease-out;
+}
+
+.ppc .content .box .textbox .header{
+    font-weight: 500;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.ppc .content .box .textbox .content{
+    margin: 0 10px;
+    color: rgb(132, 131, 131);
+}
+
+.ppc .content .box:hover .textbox{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.bbfthc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bbfthc .header{
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.bbfthc .content{
+    position: relative;
+    width: 100%;
+    background-image: url("../../assets/about/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    align-items: flex-start;
+    display: flex;
+    background-position: 0px 30%;
+}
+
+
+.bbfthc .content .box1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    box-shadow: -35px -35px 0 0 white;
+}
+
+.bbfthc .content .box2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 30px;
+    gap: 20px;
+    padding: 30px;
+    width: 33%;
+    background-color: #fff;
+    transform: translateY(-75px);
+}
+
+.bbfthc .content .box1{
+    background-color: #fff;
+    width: 23%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 0 0 30px;
+    transform: translateY(0px);
+
+}
+
+
+.bbfthc .content .box2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    box-shadow: -35px -35px 0 0 white;
+}
+.bbfthc .content .box2::before{
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 0;
+    transform: translateY(75px);
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    box-shadow: -35px -35px 0 0 white;
+}
+
+.bbfthc .content .header{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
+.bbfthc .content .content{
+    width: auto;
+    height: auto;
+    background: none;
+    color: rgb(132, 131, 131);
 }
