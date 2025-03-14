@@ -3,6 +3,7 @@ import "./About.css"
 import Rotation from '../../components/rotation/Rotation'
 import { IoArrowForward } from 'react-icons/io5'
 import img1 from "../../assets/about/1.png"
+import { RxArrowTopRight } from 'react-icons/rx'
 
 function About() {
   return (
@@ -96,6 +97,44 @@ function About() {
             </div>
             <div className="content">
               Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="mopp">
+        <div className="our-team">
+          Our Team
+        </div>
+        <div className="header">
+          MEET OUR PROFESSIONAL PSYCHOLOGISTS
+        </div>
+        <div className="psychologists">
+          <div className="psychologist-card">
+            <div className="info">
+              <div className="name">LOREM IPSUM</div>
+              <div className="title">FOUNDER</div>
+              <RxArrowTopRight className='linker'/>
+            </div>
+          </div>
+          <div className="psychologist-card">
+            <div className="info">
+              <div className="name">LOREM IPSUM</div>
+              <div className="title">FOUNDER</div>
+              <RxArrowTopRight className='linker'/>
+            </div>
+          </div>
+          <div className="psychologist-card">
+            <div className="info">
+              <div className="name">LOREM IPSUM</div>
+              <div className="title">FOUNDER</div>
+              <RxArrowTopRight className='linker'/>
+            </div>
+          </div>
+          <div className="psychologist-card">
+            <div className="info">
+              <div className="name">LOREM IPSUM</div>
+              <div className="title">FOUNDER</div>
+              <RxArrowTopRight className='linker'/>
             </div>
           </div>
         </div>
