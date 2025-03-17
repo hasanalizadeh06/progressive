@@ -1,0 +1,98 @@
+.blogs-page .header {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.blogs-page{
+    padding: 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blogs-page .psychologists {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+
+.blogs-page .psychologist-card {
+    background-image: url("../../assets/about/2.png");
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.blogs-page .psychologist-card:hover {
+    transform: scale(1.05);
+}
+
+.blogs-page .psychologist-card .info {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    backdrop-filter: blur(1rem);
+    /* width: calc(70% - 10px); */
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    transition: transform 0.3s ease;
+}
+
+.blogs-page .small{
+    scale: 0.8;
+}
+
+/* 
+.blogs-page .psychologist-card .info::after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 30%;
+    transform: translateX(-30px);
+    height: 50%;
+    backdrop-filter: blur(1rem);
+    border-radius: 0 20px 20px 0;
+} */
+/* 
+.blogs-page .psychologist-card .info::before {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    box-shadow: -15px -15px 0 0 white;
+        
+} */
+
+.blogs-page .psychologist-card .info .name {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.blogs-page .psychologist-card .info .title {
+    font-size: 1em;
+}
+
+.blogs-page .psychologist-card .info .linker {
+    position: absolute;
+    cursor: pointer;
+    bottom: 10px;
+    /* left: calc(100% + 10px); */
+    right: 10px;
+    font-size: 1.7em;
+}
+
+.blogs-page .psychologist-card:hover .info {
+    transform: translateY(-10px);
+}
