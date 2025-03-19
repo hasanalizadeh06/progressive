@@ -1,0 +1,59 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.services .service{
+    display: flex;
+    flex-direction: column;
+}
+
+.services .service .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.services .service .header .info{
+    display: flex;
+    align-items: center;
+}
+
+.services .service .header .name{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.services .service .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.services .service .content .text{
+    font-size: 1em;
+    font-weight: 300;
+    width: 50%;
+}
+
+.services .service .content .image{
+    width: 50%;
+}
+
+/* 
+
+.services
+    .service
+        .header
+            .name
+            .info
+        .content
+            .text
+            .image
+
+*/
